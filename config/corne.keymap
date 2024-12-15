@@ -42,10 +42,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&hml ESC TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&hml LCTRL CAPSLOCK  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI  &hmr RCTRL SQT
-&kp LSHFT            &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                                   &kp LEFT_GUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RIGHT_GUI
+&hml ESC TAB  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P     &kp BSPC
+&kp LCTRL     &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI  &hmr RCTRL SQT
+&kp LSHFT     &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                            &kp LEFT_GUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RIGHT_GUI
             >;
         };
 
@@ -57,10 +57,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp N1         &kp N2     &kp N3     &kp N4     &kp N5       &kp N6     &kp N7        &kp N8        &kp N9        &kp N0    &trans
-&trans     &kp NUMBER_6   &kp N7     &kp N8     &kp N9     &kp M        &kp MINUS  &kp EQUAL     &kp RA(LBKT)  &kp RA(RBKT)  &kp RBKT  &trans
-&trans     &kp LG(LS(M))  &kp LG(M)  &kp LG(Z)  &kp LC(C)  &kp LC(V)    &kp NUBS   &kp RS(NUBS)  &kp RA(APOS)  &kp RA(BSLH)  &kp BSLH  &trans
-                                     &kp LALT   &trans     &trans       &trans     &trans        &kp RALT
+&kp GRAVE  &kp N1        &kp N2  &kp N3    &kp N4     &kp N5       &kp N6     &kp N7        &kp N8        &kp N9        &kp N0    &trans
+&kp CAPS   &kp NUMBER_6  &kp N7  &kp N8    &kp N9     &kp M        &kp EQUAL  &kp MINUS     &kp RA(LBKT)  &kp RA(RBKT)  &kp RBKT  &trans
+&trans     &none         &none   &none     &kp LC(C)  &kp LC(V)    &kp NUBS   &kp RS(NUBS)  &kp RA(APOS)  &kp RA(BSLH)  &kp BSLH  &trans
+                                 &kp LALT  &trans     &trans       &trans     &trans        &kp RALT
             >;
         };
 
