@@ -73,7 +73,7 @@
 
             bindings = <
 &kp DELETE  &none  &none             &kp LG(LC(F4))  &kp UP    &kp LG(LC(D))    &kp ESC   &kp UP    &kp PSCRN      &none              &none  &trans
-&trans      &none  &kp LC(LEFT_GUI)  &kp LEFT        &kp DOWN  &kp RIGHT        &kp LEFT  &kp DOWN  &kp RIGHT      &kp RC(RIGHT_GUI)  &none  &trans
+&none       &none  &kp LC(LEFT_GUI)  &kp LEFT        &kp DOWN  &kp RIGHT        &kp LEFT  &kp DOWN  &kp RIGHT      &kp RC(RIGHT_GUI)  &none  &trans
 &trans      &none  &none             &none           &none     &none            &none     &none     &none          &none              &none  &trans
                                      &kp LEFT_GUI    &trans    &trans           &trans    &trans    &kp RIGHT_GUI
             >;
@@ -85,6 +85,7 @@
             // | BTclr |  BT0  |  BT1  |  BT2  |  BT3  |  BT4  |   |      |      |    |       |       |       |
             // |       |       |       |       |       |       |   |      |      |    |       |       |       |
             //                         |       |       |       |   |      |      |    |  
+
             bindings = <
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans   &trans   &trans
